@@ -1,5 +1,4 @@
 import "./styles.css";
-import { Deck } from "./deck";
+import { Game } from "./Game";
 
-const deck = new Deck();
-console.log(deck);
+new Game();
